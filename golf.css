@@ -1,0 +1,38 @@
+h1 {
+	font-size:  5em;
+	text-align:  center;
+}
+
+.header-container {
+	display:  grid;
+	grid-template-columns:  20% 60% 20%;
+}
+
+
+.container {
+	max-width:  800px;
+	margin:  0 auto;
+}
+
+.buttons-container {
+	display:  grid;
+	grid-template-columns:  50% 50%;
+}
+
+.button {
+	margin:  auto;
+}
+
+#golf-text-yes {
+	color:  blue;
+}
+
+#golf-text-no {
+	color:  red;
+	text-decoration:  line-through;
+}
+
+#emoji-right, #emoji-left {
+	font-size:  4em;
+	margin:  auto;
+}
